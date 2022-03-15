@@ -1,0 +1,104 @@
+
+
+.site-main__heading {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(221, 221, 221, 0.867);
+}
+
+.site-main__heading::before {
+    border: 1px solid rgba(221, 221, 221, 0.867);
+    width: 150px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left: 50px;
+}
+
+.site-main__heading::after {
+    border: 1px solid rgba(221, 221, 221, 0.867);
+    width: 150px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    right: 50px;
+    
+}
+
+
+.site-main__content {
+    margin: 0;
+}
+
+.site-main__item:nth-child(1) {
+    max-width: 400px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(10, 165, 236);
+    border-radius: 5px;
+    position: relative;
+}
+
+.site-main__item:nth-child(1)::before {
+    position: absolute;
+    top: 0px;
+    left: -16px;
+    content: "";
+    @include triangle-up(16px, rgb(10, 165, 236) )
+}
+
+.site-main__item:nth-child(2) {
+    max-width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px;
+    padding-left: 0;
+    position: relative;
+    background-color: rgb(204, 208, 209);
+    border-radius: 5px;
+}
+
+.site-main__item:nth-child(2)::before {
+    position: absolute;
+    top: 0px;
+    right: -16px;
+    content: "";
+    @include triangle-up (16px, rgb(204, 208, 209) );
+}
+
+.site-main__item:nth-child(3) {
+    position: relative;
+    max-width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(10, 165, 236);
+    border-radius: 5px;
+} 
+
+.site-main__item:nth-child(3)::before {
+    position: absolute;
+    top: 0px;
+    left: -16px;
+    content: "";
+    @include triangle-up(16px, rgb(10, 165, 236) )
+}
+
+.site-main__item:nth-child(4) {
+    max-width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 310px;
+    padding: 10px;
+    background-color: rgb(204, 137, 82);
+    border-radius: 5px;
+}
+
+.site-main__time {
+    position: absolute;
+    top: -22px;
+}
