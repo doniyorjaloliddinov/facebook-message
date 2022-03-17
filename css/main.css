@@ -415,6 +415,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
+  background-color: white;
 }
 
 .visually-hidden {
@@ -475,6 +476,8 @@ a {
   color: white;
   font-size: 36px;
   font-weight: bold;
+  background-color: transparent;
+  border: none;
 }
 
 .header-wrapper__plus:hover {
