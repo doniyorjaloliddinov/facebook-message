@@ -37,7 +37,7 @@
     max-width: 400px;
     height: 40px;
     padding: 10px;
-    background-color: rgb(10, 165, 236);
+    background-color: rgb(230,237,246);
     border-radius: 5px;
     position: relative;
 }
@@ -47,7 +47,7 @@
     top: 0px;
     left: -16px;
     content: "";
-    @include triangle-up(16px, rgb(10, 165, 236) )
+    @include triangle-up(16px, rgb(230,237,246) )
 }
 
 .site-main__item:nth-child(2) {
@@ -58,7 +58,7 @@
     padding: 10px;
     padding-left: 0;
     position: relative;
-    background-color: rgb(204, 208, 209);
+    background-color: rgb(242,242,242);
     border-radius: 5px;
 }
 
@@ -67,7 +67,7 @@
     top: 0px;
     right: -16px;
     content: "";
-    @include triangle-up (16px, rgb(204, 208, 209) );
+    @include triangle-up (16px, rgb(242,242,242) );
 }
 
 .site-main__item:nth-child(3) {
@@ -76,7 +76,7 @@
     height: 40px;
     margin-top: 30px;
     padding: 10px;
-    background-color: rgb(10, 165, 236);
+    background-color: rgb(230,237,246);
     border-radius: 5px;
 } 
 
@@ -85,7 +85,7 @@
     top: 0px;
     left: -16px;
     content: "";
-    @include triangle-up(16px, rgb(10, 165, 236) )
+    @include triangle-up(16px, rgb(230,237,246) )
 }
 
 .site-main__item:nth-child(4) {
@@ -94,7 +94,7 @@
     margin-top: 30px;
     margin-left: 310px;
     padding: 10px;
-    background-color: rgb(204, 137, 82);
+    background-color: rgb(255,194,193);
     border-radius: 5px;
 }
 
