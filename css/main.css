@@ -429,6 +429,10 @@ a {
   width: 1px;
 }
 
+.message-wrapper {
+  background-color: #b0c6d9;
+}
+
 .header-wrapper {
   margin-top: 50px;
   max-width: 800px;
@@ -449,7 +453,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1e76db;
+  background-color: #6a96d8;
 }
 
 .header-wrapper__heading-name {
@@ -487,6 +491,8 @@ a {
 }
 
 .site-main__heading {
+  margin: 0;
+  padding: 25px 0;
   position: relative;
   text-align: center;
   font-size: 24px;
@@ -515,6 +521,11 @@ a {
 
 .site-main__content {
   margin: 0;
+}
+
+.site-main__list {
+  margin-bottom: 0;
+  padding-bottom: 25px;
 }
 
 .site-main__item:nth-child(1) {
